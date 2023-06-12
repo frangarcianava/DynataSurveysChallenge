@@ -1,0 +1,37 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "array",
+  "items": [
+    {
+      "type": "object",
+      "properties": {
+        "surveyId": {
+          "type": "integer"
+        },
+        "surveyName": {
+          "type": "string"
+        },
+        "numberOfCompletes": {
+          "type": "integer"
+        },
+        "numberOfFiltered": {
+          "type": "integer"
+        },
+        "numberOfRejected": {
+          "type": "integer"
+        },
+        "avgLengthOfSurvey": {
+          "type": "integer"
+        }
+      },
+      "required": [
+        "surveyId",
+        "surveyName",
+        "numberOfCompletes",
+        "numberOfFiltered",
+        "numberOfRejected",
+        "avgLengthOfSurvey"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Dynata Surveys">
+    <suite-files>
+        <suite-file path="testng.xml" />
+    </suite-files>
+    <test name="Active Not Participated API">
+        <classes>
+            <class name="tests.ActiveNotParticipatedTests" />
+        </classes>
+    </test>
+    <test name="Get Members Of Survey API">
+        <classes>
+            <class name="tests.GetMembersOfSurveyTests" />
+        </classes>
+    </test>
+    <test name="Member Points API">
+        <classes>
+            <class name="tests.MemberPointsTests" />
+        </classes>
+    </test>
+    <test name="Surveys Completed by Member API">
+        <classes>
+            <class name="tests.SurveysCompletedByMemberTests" />
+        </classes>
+    </test>
+    <test name="Survey Statistics API">
+        <classes>
+            <class name="tests.SurveyStatisticsTests" />
+        </classes>
+    </test>
+</suite>
